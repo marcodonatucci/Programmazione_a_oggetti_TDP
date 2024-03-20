@@ -41,4 +41,5 @@ print(my_car.age())
 # __iter__() definisce la modalità di iterazione (ciclo for)
 # __getitem__() le parentesi quadre con gli indici []
 # __enter__() e __exit__() lo statement 'with' che crea un contesto (apre e chiude un file)
-#
+# __lt__ ordina gli oggetti e si occupa di definire il comportamento degli operatori di confronto <>...
+# __eq__ compara gli oggetti tra di loro, viene usato in == != e sort, ci sono lt ed eq già definiti per alcuni elementi
